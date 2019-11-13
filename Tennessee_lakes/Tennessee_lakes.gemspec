@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "AntType/version"
+require "Tennessee_lakes/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "AntType"
-  spec.version       = AntType::VERSION
+  spec.name          = "Tennessee_lakes"
+  spec.version       = TennesseeLakes::VERSION
   spec.authors       = ["'cedric e goddard'"]
   spec.email         = ["'8ceg6@comcast.net'"]
 
@@ -38,4 +38,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 3.0"
 end

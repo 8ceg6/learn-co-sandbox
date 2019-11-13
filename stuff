@@ -1,2 +1,5 @@
 bundle gem <Project_Name>
 git init
+create repository 
+git status 
+git add
